@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+@import url('http://fonts.googleapis.com/css/family=Quicksand:400,500&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+::-webkit-scrollbar {
+    display: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+.brand{
+    font-family: 'PT Serif', serif;
+    font-size: 2rem;
+}
+body{
+    background-color: rgb(183, 189, 189);
+}
+/* profile */
+h1{
+    color: white;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+.fotodiri{
+    width: 250px;
+    height: 250px;
+    border-radius: 15rem;
+    margin-top: 1rem;
+    padding-left: 0;
+    margin-left: 0;
+}
+.profil{
+    background-color: #273036;
+}
+.kata{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+
+}
+/* .card1{
+    padding-left: 2rem;
+}
+.card3{
+    padding-right: 2rem;
+} */
+.sekolah{
+    color: white;
+    width: 100%;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 2rem;
+}
+
+/* project */
+.project{
+    background-color: #273036;
+}
+
+footer{
+    text-align: center;
+    color: black;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0,0,0,.3);
+    backdrop-filter: blur(15px);
+}
+.card {
+    position: static;
+}
+.navbar-brand {
+    color: #ffffff;
+}
+.nav-link {
+    color: #ffffff;
+}
